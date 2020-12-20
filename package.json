@@ -1,6 +1,7 @@
 {
   "name": "react-auth0",
   "version": "0.1.0",
+  "license": "ISC",
   "private": true,
   "dependencies": {
     "@auth0/auth0-react": "^1.2.0",
