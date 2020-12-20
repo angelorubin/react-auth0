@@ -24,7 +24,7 @@ const routes = [
     }),
   },
   {
-    path: "/*",
+    path: "*",
     key: "404",
     exact: true,
     component: <h1>Page not found.</h1>,
