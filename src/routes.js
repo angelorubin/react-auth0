@@ -23,6 +23,12 @@ const routes = [
       onRedirecting: () => <Loading />,
     }),
   },
+  {
+    path: "*",
+    key: "404",
+    exact: true,
+    component: <h1>Page not found.</h1>,
+  },
 ];
 
 export default routes;
