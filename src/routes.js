@@ -11,9 +11,9 @@ import Loading from "components/loading";
 const routes = [
   {
     path: "/",
-    key: "ROOT",
+    key: "LOGIN",
     exact: true,
-    component: Root,
+    component: LoginAuth0,
   },
   {
     path: "/dashboard",
